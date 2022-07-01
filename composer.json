@@ -1,0 +1,30 @@
+{
+    "name": "leeuwenkasteel/icons",
+    "description": "icon package",
+    "type": "package",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Sanne van Leeuwen",
+            "email": "sanne@leeuwenkasteel.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Leeuwenkasteel\\Icons\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leeuwenkasteel\\Icons\\IconsServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
